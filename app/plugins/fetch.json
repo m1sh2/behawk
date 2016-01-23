@@ -1,0 +1,16 @@
+{
+    "org.apache.cordova.splashscreen": {
+        "source": {
+            "type": "local",
+            "path": "C:\\Users\\misha\\.plugman\\cache\\org.apache.cordova.splashscreen\\1.0.0\\package"
+        }
+    },
+    "cordova-plugin-whitelist": {
+        "source": {
+            "type": "registry",
+            "id": "cordova-plugin-whitelist"
+        },
+        "is_top_level": true,
+        "variables": {}
+    }
+}

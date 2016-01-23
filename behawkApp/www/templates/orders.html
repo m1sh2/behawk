@@ -1,0 +1,41 @@
+<ion-view view-title="{{ pageTitle }}">
+  <ion-content>
+<div class="hero-unit">
+  <table class="table table-hover table-striped">
+		<tr ng-repeat="order in orders" ng-click="showDetails = !showDetails">
+			<td>
+				<span class="text-warning icon-stopwatch" ng-if='order.state=="P"' style="font-weight: bold;"></span>
+    		<span class="text-info icon-user-check" ng-if='order.state=="U"' style="font-weight: bold;"></span>
+    		<span class="text-success icon-checkmark" ng-if='order.state=="C"' style="font-weight: bold;"></span>
+    		<span class="text-danger glyphicon glyphicon-remove" ng-if='order.state=="X"' style="font-weight: bold;"></span>
+    		<span class="icon-warning" ng-if='order.state=="R"' style="font-weight: bold;"></span>
+    		<span class="text-success icon-truck" ng-if='order.state=="S"' style="font-weight: bold;"></span>
+				&nbsp;<small style="font-size: 11px;line-height: 12px;">{{ order.date }}</small>
+    		<span style="float:right;"><b>{{ order.price }}</b></span>
+    		<div class="order-details" ng-show="showDetails">
+	    		<div class="order-name">ID: {{ order.oid }}</div>
+	    		<div class="order-name">Name: {{ order.name }}</div>
+	    		<div class="order-name">Phone: {{ order.phone }}</div>
+	    		<div class="order-name">Email: {{ order.email }}</div>
+	    		<div ng-repeat="item in order.items" class="order-item">
+	    			<div class="order-item-name">{{ j }} {{ item.name }}</div>
+	    			<table class="order-item-price">
+	    				<tr>
+	    					<td width="38%" align="left">{{ item.price }}</td>
+	    					<td width="1%" align="center">x</td>
+	    					<td width="20%" align="center">{{ item.quantity }}</td>
+	    					<td width="1%" align="center">=</td>
+	    					<td width="40%" align="right">{{ item.priceTotal }}</td>
+	  					</tr>
+	    			</table>
+	    		</div>
+	    	</div>
+    	</td>
+	  </tr>
+  </table>
+  <button ng-if="orders.length>=20" type="button" class="btn btn-primary btn-lg btn-block" ng-click="loadMore()" style="display:block;margin:0 auto;">
+  	<i class="icon-arrow-down"></i>
+  </button>
+</div>
+  </ion-content>
+</ion-view>

@@ -1,0 +1,456 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"data",
+				"dataTmp2"
+			],
+			[
+				"for",
+				"for	for (…) {…}"
+			],
+			[
+				"se",
+				"selectize"
+			],
+			[
+				"d",
+				"d"
+			],
+			[
+				"lin",
+				"linear"
+			],
+			[
+				"week",
+				"weekcurrent"
+			],
+			[
+				"pag",
+				"pagHtml"
+			],
+			[
+				"Mo",
+				"ModalEvents"
+			],
+			[
+				"call",
+				"callback"
+			],
+			[
+				"inse",
+				"insertBefore"
+			],
+			[
+				"Modal",
+				"ModalEvents"
+			],
+			[
+				"u",
+				"undefined"
+			],
+			[
+				"Pre",
+				"Preload"
+			],
+			[
+				"api",
+				"apiRequest"
+			],
+			[
+				"tim",
+				"timeoutId"
+			],
+			[
+				"tr",
+				"true"
+			],
+			[
+				"s",
+				"size"
+			],
+			[
+				"i",
+				"if	if"
+			],
+			[
+				"b",
+				"bubbles"
+			],
+			[
+				"per",
+				"periodFilter"
+			],
+			[
+				"remove",
+				"removeClass"
+			],
+			[
+				"wee",
+				"weekFrom"
+			],
+			[
+				"UpdateQ",
+				"UpdateQuick"
+			],
+			[
+				"UpdateQui",
+				"UpdateQuickClear"
+			],
+			[
+				"koe",
+				"koefTmp"
+			],
+			[
+				"con",
+				"console"
+			],
+			[
+				"A",
+				"Absolute"
+			],
+			[
+				"stamp",
+				"stamp_raw"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "app/app/modules/core/controllers/products.js",
+			"settings":
+			{
+				"buffer_size": 2161,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"selected_items":
+		[
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 400.0
+	},
+	"console":
+	{
+		"height": 146.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/Users/Mykhailo/YandexDisk/Projects/My/behawk/Behawk.sublime-project",
+		"/C/Users/Mykhailo/AppData/Local/Temp/scp46145/datsko.it/kalipso/templates/tb/css/template.css",
+		"/C/Users/Mykhailo/YandexDisk/Projects/SolidOpinion/server2/domains/SolidReach/public_html/js/browser.js",
+		"/C/Users/Mykhailo/YandexDisk/Projects/SolidOpinion/server2/domains/SolidReach/public_html/js/script.js",
+		"/C/Users/Mykhailo/YandexDisk/Projects/SolidOpinion/SolidReach.sublime-project",
+		"/C/Users/Mykhailo/AppData/Roaming/Sublime Text 2/Packages/TortoiseSVN/TortoiseSVN.sublime-settings",
+		"/C/Users/Mykhailo/AppData/Roaming/Sublime Text 2/Packages/User/Git.sublime-settings",
+		"/C/Users/Mykhailo/AppData/Roaming/Sublime Text 2/Packages/Git/Git.sublime-settings",
+		"/C/Users/Mykhailo/AppData/Local/Temp/scp28467/datsko.it/kalipso/templates/tb/css/template.css",
+		"/C/Users/Mykhailo/YandexDisk/Projects/SolidOpinion/server2/domains/SolidWidget/trunk/cdn/source/frontend/js/frontend.js",
+		"/C/Users/Mykhailo/YandexDisk/Projects/SolidOpinion/server2/domains/SolidWidget/trunk/cdn/source/frontend/js/frontend_functions.js",
+		"/C/Users/Mykhailo/YandexDisk/Projects/SolidOpinion/server2/domains/test/index.html",
+		"/C/Users/Mykhailo/YandexDisk/Projects/SolidOpinion/server2/domains/SolidWidget/trunk/cdn/source/frontend/js/templates.tmpl.js",
+		"/C/Users/Mykhailo/AppData/Roaming/Sublime Text 2/Packages/TortoiseSVN/Default (Windows).sublime-keymap",
+		"/C/Users/Mykhailo/YandexDisk/Projects/SolidOpinion/server2/domains/SolidWidget/trunk/app/backend/secured_backend/index.php",
+		"/C/Users/Mykhailo/YandexDisk/Projects/SolidOpinion/server2/domains/SolidWidget/trunk/app/backend/secured_backend/backend/index.php",
+		"/C/Users/Mykhailo/YandexDisk/Projects/SolidOpinion/server2/domains/SolidWidget/trunk/app/backend/secured_backend/config/config.loc.php",
+		"/C/Users/Mykhailo/YandexDisk/Projects/SolidOpinion/server2/domains/SolidWidget2/trunk/cdn/source/frontend/js/templates.tmpl.js",
+		"/C/Users/Mykhailo/YandexDisk/Projects/SolidOpinion/server2/domains/SolidWidget2/trunk/cdn/source/frontend/js/frontend.js",
+		"/C/Users/Mykhailo/YandexDisk/Projects/SolidOpinion/server2/domains/SolidWidget2/trunk/cdn/gulpfile.js",
+		"/C/Users/Mykhailo/YandexDisk/Projects/SolidOpinion/server2/domains/SolidWidget/trunk/cdn/gulpfile.js",
+		"/C/Users/Mykhailo/YandexDisk/Projects/SolidOpinion/server2/domains/SolidWidget2/trunk/cdn/source/frontend/js/embed.js",
+		"/C/Users/Mykhailo/YandexDisk/Projects/SolidOpinion/server2/domains/SolidWidget/.svn/wc.db",
+		"/C/Users/Mykhailo/YandexDisk/Projects/SolidOpinion/server2/domains/SolidWidget/.svn/wc.db-journal",
+		"/C/Users/Mykhailo/AppData/Roaming/Sublime Text 2/Packages/User/Preferences.sublime-settings",
+		"/C/Users/Mykhailo/AppData/Roaming/Sublime Text 2/Packages/Default/Preferences.sublime-settings",
+		"/C/Users/Mykhailo/YandexDisk/Загрузки/clamp.min.js"
+	],
+	"find":
+	{
+		"height": 34.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"drawBrandsTable",
+			"sortDataTable",
+			"drawBrandsTable",
+			"fixedTableHeader",
+			"switch-gra",
+			"disctime",
+			"Preload",
+			"advocates",
+			"page",
+			"paused",
+			"disctime",
+			"Time /",
+			"refreshOptions",
+			"insertAtCaret",
+			"console",
+			"search",
+			"filldate",
+			"setSerchText",
+			"addSerchItem",
+			"setSerchText",
+			"getCategoryName",
+			"CheckTimeDiscussion",
+			"showCategoriesSelected",
+			"inputDigitsOnly",
+			"displaySelectedBubbles",
+			"showCategoriesByKeyword",
+			"weekCurrent",
+			"displayBubbleChart",
+			"updateGraph",
+			"minweek",
+			"maxweek",
+			"minweek",
+			"prev",
+			"step",
+			"pointer_date",
+			"posCurrent",
+			"current_pos",
+			"site_influence",
+			"ls ",
+			"ls",
+			"data",
+			"max_date",
+			"button_play",
+			"timeoutId",
+			"apiUrl",
+			"resetData",
+			"siteBubbleChart",
+			"dataTable",
+			"selectionWeekDelta",
+			"ndx",
+			"#search",
+			"last3month",
+			"lastmonth",
+			"pop-up-debug-tool-expander",
+			"loaded:",
+			"if(",
+			"showDebugTool",
+			"for(",
+			"getColo",
+			"}\n		                else",
+			"if(",
+			"promise",
+			"for(",
+			"if(",
+			"lasttwo",
+			"#two",
+			"disabled",
+			"#timeline",
+			"\"));\n",
+			"#startweek",
+			"fillDate(",
+			"getRadiusValue",
+			"updateGraph",
+			"messages",
+			"displayBubbleChart",
+			"Sorry ",
+			"Sorry",
+			"#",
+			"promo",
+			"displayMessagesList",
+			"displayComments",
+			"creation_date_translated",
+			"dateTranslate",
+			"n dateTranslate",
+			"dateTranslate",
+			"creation_date_translated",
+			"Auth.get(\"",
+			"getAdminActionInlineMenu",
+			"getCurrentUserStatus",
+			"n getCurrentUserStatus",
+			"getCurrentUserStatus",
+			"getAdminActionInlineMenu",
+			"displayComments",
+			"getAdminActionInlineMenu",
+			"admin_action_menu",
+			"bottom-nav-comments",
+			"templateActionMenu",
+			"action_menu",
+			"mes ",
+			"<<<",
+			"console.info",
+			"showPageBody",
+			"refreshMessageListDisplay",
+			"setBlocks",
+			"bodyTemplate",
+			"comments-root-container",
+			"placeWidget",
+			"#comments",
+			"threadTemplate",
+			"#comments",
+			"bodyTemplate",
+			"<form",
+			"openForum",
+			"comments_block",
+			"formForumsTemplate",
+			"setBlocks",
+			"navTemplate",
+			"bodyTemplate",
+			"navTemplate",
+			"promote",
+			"applyBid",
+			"bodyTemplate",
+			"navTemplate",
+			"help_tab_show"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"if (",
+			"for (",
+			"} else",
+			"if (",
+			"for (",
+			"if ("
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "app/app/modules/core/controllers/products.js",
+					"settings":
+					{
+						"buffer_size": 2161,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 216.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.git":
+	{
+		"height": 118.0
+	},
+	"output.sftp":
+	{
+		"height": 118.0
+	},
+	"replace":
+	{
+		"height": 62.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+			[
+				"",
+				"/C/Users/Mykhailo/YandexDisk/SolidOpinion/SolidWidget.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"show_minimap": false,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 206.0,
+	"status_bar_visible": true
+}

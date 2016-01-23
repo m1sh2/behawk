@@ -1,0 +1,68 @@
+<!doctype html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7" ng-app="Behawk"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8" ng-app="Behawk"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9" ng-app="Behawk"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" ng-app="Behawk"> <!--<![endif]-->
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>BEHAWK Control System</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width">
+    <base href="/">
+    <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+    <!-- build:css styles/main.css -->
+    <!-- <link rel="stylesheet" href="styles/bootstrap.css"> -->
+    <!-- <link rel="stylesheet" href="styles/Supernice.css"> -->
+    <link rel="stylesheet" href="styles/Supernice.css">
+    <link rel="stylesheet" href="components/angular-chart/angular-chart.css">
+    <link rel="stylesheet" href="styles/grid.css">
+    <link rel="stylesheet" href="styles/icons.css">
+    <link rel="stylesheet" href="styles/main.css">
+    <!-- endbuild -->
+    <link href="/favicon.ico" rel="shortcut icon" />
+    <script src="cordova.js"></script>
+    <!-- <script src="components/angular/angular.js"></script> -->
+    <script src="components/angular/angular.min.js"></script>
+    <script src="components/angular/angular-route.min.js"></script>
+    <script src="components/angular/angular-resource.min.js"></script>
+    <script src="components/angular/angular-cookies.min.js"></script>
+    <script src="components/angular/angular-sanitize.min.js"></script>
+    <script src="components/angular/angular-animate.min.js"></script>
+    <script src="components/angular-chart/Chart.min.js"></script>
+    <script src="components/angular-chart/angular-chart.js"></script>
+    <!-- // <script src="components/angular/angular-aria.min.js"></script> -->
+    <script src="components/angular-local/angular-local-storage.min.js"></script>
+    <script src="components/angular-cordova/ng-cordova.min.js"></script>
+
+    <!-- build:js scripts/scripts.js -->
+    <script src="scripts/jquery.min.js"></script>
+    <script src="scripts/bootstrap.min.js"></script>
+    <script src="scripts/_txt.js"></script>
+    <script src="scripts/index.js"></script>
+    <!-- endbuild -->
+  </head>
+  <body id="app">
+    <!--[if lt IE 7]>
+      <p class="chromeframe">You are using an outdated browser. <a href="http://browsehappy.com/">Upgrade your browser today</a> or <a href="http://www.google.com/chromeframe/?redirect=true">install Google Chrome Frame</a> to better experience this site.</p>
+    <![endif]-->
+
+    <!--[if lt IE 9]>
+      <script src="components/es5-shim/es5-shim.js"></script>
+      <script src="components/json3/lib/json3.min.js"></script>
+    <![endif]-->
+
+    <!-- Add your site or application content here -->
+    
+    
+    <div class="wrap" id="wrap">
+      <div class="sidebar-left" id="sidebar">
+        <div ng-controller="navCtrl" nav></div>
+      </div>
+      <div class="content" id="content">
+        <div ng-view></div>
+      </div>
+      <div class="top" id="top"><div ng-controller="topCtrl" top></div></div>
+    </div>
+  </body>
+</html>

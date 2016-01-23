@@ -1,0 +1,21 @@
+<div class="hero-unit">
+  <h1>{{ pageTitle }}</h1>
+  <p><i class="glyphicon glyphicon-filter"></i> Category filter</p>
+  <select class="form-control" id="cat" ng-model="catId" ng-change="filterByCat()">
+  	<option value="0">/</option>
+  	<option ng-repeat="cat in cats" value="{{ cat.id }}">{{ cat.name }} ({{ cat.countProds }})</option>
+  </select>
+  <table class="table table-hover table-striped" id="products">
+    <tr ng-repeat="product in prods track by $index">
+    	<td width="5%" align="right">{{ $index+1 }}</td>
+    	<td>{{ product.name }}</td>
+    	<td width="5%" align="center">
+    		<span class="text-success glyphicon glyphicon-ok" ng-if="product.state==1"></span>
+    		<span class="text-danger glyphicon glyphicon-remove" ng-if="product.state==0"></span>
+    	</td>
+    </tr>
+  </table>
+  <button ng-if="prods.length>=20" type="button" class="btn btn-primary btn-lg btn-block" ng-click="loadMore()" style="display:block;margin:0 auto;">
+    <i class="icon-arrow-down"></i>
+  </button>
+</div>
