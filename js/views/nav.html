@@ -1,0 +1,16 @@
+<span id="menu" ng-click="nav.opened = !nav.opened">
+	<i class="icon-menu" ng-if="!nav.opened"></i>
+	<i class="icon-cross" ng-if="nav.opened"></i>
+</span>
+<div class="nav-menu-mask" ng-click="nav.opened = false" ng-if="nav.opened"></div>
+<div class="nav-menu">
+	<a href="/" class="logo"><img src="/images/logo100.png" /></a>
+
+	<a ng-repeat="item in menu" href="{{ item.url }}" ng-click="nav.opened = false" class="btn btn-danger btn-block btn-lg" ng-class="{active: isActiveLink(item.url)}" ng-if="shops.length>0 || item.url=='/' || item.url=='/settings'">
+		<i class="{{ item.icon }}"></i>
+		{{ _txt[item.name][lng] }}
+	</a>
+
+	<div class="version">v.1.1.12</div>
+</div>
+

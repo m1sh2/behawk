@@ -1,0 +1,7 @@
+
+<select id="shops" ng-change="selectShop()"
+	ng-options="shop.name for shop in shops track by shop.id"
+	ng-model="selectedOption">
+</select>
+
+<nav ng-controller="navCtrl as nav" ng-class="{opened: nav.opened}"></nav>
