@@ -1,8 +1,0 @@
-
-
-<a href="#!/" class="logo"><img src="img/logo100.png" /></a>
-
-<a ng-repeat="item in menu" href="{{ item.url }}" class="btn btn-danger btn-block btn-lg" ng-class="{active: isActiveLink(item.url)}" ng-if="shops.length>0 || item.url=='#!/' || item.url=='#!/settings'">
-  <i class="{{ item.icon }}"></i>
-  {{ _txt[item.name][lng] }}
-</a>
