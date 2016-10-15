@@ -1,0 +1,25 @@
+{
+  "name": "behawk",
+  "version": "1.0.0",
+  "description": "e-commerce statistics",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "server": "light-server -s .",
+    "server-php": "php-serve --hostname localhost --port 8000 ./api/email/index.php"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/m1sh2/behawk.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/m1sh2/behawk/issues"
+  },
+  "homepage": "https://github.com/m1sh2/behawk#readme",
+  "devDependencies": {
+    "light-server": "^1.1.7",
+    "php-serve": "0.0.1"
+  }
+}

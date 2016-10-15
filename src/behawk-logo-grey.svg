@@ -10,13 +10,16 @@
    xmlns:xlink="http://www.w3.org/1999/xlink"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="350mm"
-   height="350mm"
-   viewBox="0 0 1240.1575 1240.1575"
+   width="354.91138mm"
+   height="361.79111mm"
+   viewBox="0 0 1257.56 1281.937"
    id="svg5669"
    version="1.1"
    inkscape:version="0.91 r13725"
-   sodipodi:docname="behawk-logo-grey.svg">
+   sodipodi:docname="behawk-logo-grey.svg"
+   inkscape:export-filename="/Users/mike/Documents/my/behawk/files/img/behawk-logo-grey.png"
+   inkscape:export-xdpi="18.142857"
+   inkscape:export-ydpi="18.142857">
   <defs
      id="defs5671">
     <linearGradient
@@ -358,14 +361,6 @@
          in2="offset"
          in="SourceGraphic" />
     </filter>
-    <filter
-       style="color-interpolation-filters:sRGB"
-       inkscape:label="Greyscale"
-       id="filter8105">
-      <feColorMatrix
-         values="0.21 0.72 0.072 0.27 0 0.21 0.72 0.072 0.27 0 0.21 0.72 0.072 0.27 0 0 0 0 1 0 "
-         id="feColorMatrix8107" />
-    </filter>
   </defs>
   <sodipodi:namedview
      id="base"
@@ -380,15 +375,15 @@
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
-     fit-margin-top="0"
-     fit-margin-left="0"
-     fit-margin-right="0"
-     fit-margin-bottom="0"
      inkscape:window-width="1280"
      inkscape:window-height="751"
      inkscape:window-x="0"
      inkscape:window-y="1"
-     inkscape:window-maximized="1" />
+     inkscape:window-maximized="1"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0" />
   <metadata
      id="metadata5674">
     <rdf:RDF>
@@ -398,6 +393,7 @@
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
         <dc:title></dc:title>
+        <dc:title></dc:title>
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -405,7 +401,7 @@
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
      id="layer1"
-     transform="translate(256.73275,73.007836)">
+     transform="translate(256.73275,114.78735)">
     <g
        id="layer1-8"
        inkscape:label="Layer 1"
@@ -545,8 +541,7 @@
     </g>
     <g
        id="g7871"
-       transform="translate(-8.7012653,2415.1986)"
-       style="filter:url(#filter8105)">
+       transform="translate(3.3295479e-5,2331.5872)">
       <circle
          r="625"
          cy="387.12442"
