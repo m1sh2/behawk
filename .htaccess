@@ -345,16 +345,10 @@ FileETag None
 #  Options +FollowSymlinks
 # Options +SymLinksIfOwnerMatch
 #  Options +FollowSymlinks
-  RewriteEngine on
-  RewriteCond %{HTTP_HOST} ^www\.behawk\.net [NC]
-  RewriteRule ^(.*)$ http://behawk.net/$1 [L,R=301]
-  RewriteCond %{REQUEST_FILENAME} -s [OR]
-  RewriteCond %{REQUEST_FILENAME} -l [OR]
-  RewriteCond %{REQUEST_FILENAME} -d
-  RewriteRule ^.*$ - [NC,L]
 
-  RewriteRule ^(.*) /index.html [NC,L]
-# RewriteBase /
+	RewriteEngine on
+	RewriteCond %{HTTP:SSL} !=1 [NC]
+	RewriteRule ^(.*)$ https://behawk.net/$1 [L,R=301]
 </IfModule>
 
 
@@ -381,9 +375,9 @@ FileETag None
 # Rewrite "www.example.com -> example.com".
 
 <IfModule mod_rewrite.c>
-  RewriteCond %{HTTPS} !=on
-  RewriteCond %{HTTP_HOST} ^www\.(.+)$ [NC]
-  RewriteRule ^ http://%1%{REQUEST_URI} [R=301,L]
+  #RewriteCond %{HTTPS} !=on
+  #RewriteCond %{HTTP_HOST} ^www\.(.+)$ [NC]
+  #RewriteRule ^ http://%1%{REQUEST_URI} [R=301,L]
 </IfModule>
 
 # ----------------------------------------------------------------------
@@ -483,9 +477,9 @@ AddCharset utf-8 .atom .css .js .json .rss .vtt .xml
 # period. This includes directories used by version control systems such as
 # Subversion or Git.
 <IfModule mod_rewrite.c>
-  RewriteCond %{SCRIPT_FILENAME} -d [OR]
-  RewriteCond %{SCRIPT_FILENAME} -f
-  RewriteRule "(^|/)\." - [F]
+  #RewriteCond %{SCRIPT_FILENAME} -d [OR]
+  #RewriteCond %{SCRIPT_FILENAME} -f
+  #RewriteRule "(^|/)\." - [F]
 </IfModule>
 
 # Block access to backup and source files. These files may be left by some
@@ -559,4 +553,3 @@ AddCharset utf-8 .atom .css .js .json .rss .vtt .xml
 <IfModule php5_module>
   php_value session.cookie_httponly true
 </IfModule>
-

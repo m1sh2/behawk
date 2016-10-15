@@ -1,61 +1,191 @@
-<!doctype html>
-<html ng-app="BE">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>BEHAWK Control System</title>
-    <meta name="description" content="">
-    <meta name="viewport" content="width=device-width">
-    <base href="/">
-    <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
-    <!-- build:css css/main.css -->
-    <!-- <link rel="stylesheet" href="css/bootstrap.css"> -->
-    <!-- <link rel="stylesheet" href="css/Supernice.css"> -->
-    <link rel="stylesheet" href="css/Supernice.css">
-    <link rel="stylesheet" href="js/libs/angular-chart/angular-chart.css">
-    <link rel="stylesheet" href="css/grid.css">
-    <link rel="stylesheet" href="css/icons.css">
-    <link rel="stylesheet" href="css/main.css">
-    <!-- endbuild -->
-    <link href="/favicon.ico" rel="shortcut icon" />
-
-    <script src="cordova.js"></script>
-    <script src="js/libs/angular/angular.min.js"></script>
-    <script src="js/libs/angular/angular-route.min.js"></script>
-    <script src="js/libs/angular/angular-resource.min.js"></script>
-    <script src="js/libs/angular/angular-cookies.min.js"></script>
-    <script src="js/libs/angular/angular-sanitize.min.js"></script>
-    <script src="js/libs/angular/angular-animate.min.js"></script>
-    <script src="js/libs/angular-chart/Chart.min.js"></script>
-    <script src="js/libs/angular-chart/angular-chart.js"></script>
-    <script src="js/libs/angular-local/angular-local-storage.min.js"></script>
-    <script src="js/libs/angular-cordova/ng-cordova.min.js"></script>
-    <script src="js/libs/jquery.min.js"></script>
-    <script src="js/libs/bootstrap.min.js"></script>
-
-    <!-- build:js scripts/scripts.js -->
-    <script src="js/_txt.js"></script>
-    <script src="js/config.js"></script>
-    <script src="js/services/xhr.srv.js"></script>
-    <script src="js/services/shops.srv.js"></script>
-    <script src="js/controllers/nav.js"></script>
-    <script src="js/controllers/top.js"></script>
-    <script src="js/pages/buyers/buyers.js"></script>
-    <script src="js/pages/categories/categories.js"></script>
-    <script src="js/pages/home/home.js"></script>
-    <script src="js/pages/orders/orders.js"></script>
-    <script src="js/pages/products/products.js"></script>
-	<script src="js/pages/settings/settings.js"></script>
-    <script src="js/app.js"></script>
-    <!-- endbuild -->
-  </head>
-  <body id="app" ng-controller="mainCtrl as main" ng-class="{loaded: main.loaded}">
-    <div class="wrap" id="wrap">
-      <top class="top" ng-controller="topCtrl as top" id="top"></top>
-      <div class="content" id="content">
-        <div ng-view></div>
+<!DOCTYPE html>
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+  <meta name="author" content="Super User">
+  
+  <title>Behawk</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="./files/css/icons.css" rel="stylesheet" type="text/css">
+  <link href="./files/css/grid.css" rel="stylesheet" type="text/css">
+  <link href="./files/css/style.css" rel="stylesheet" type="text/css">
+  <link href="./favicon.ico" rel="shortcut icon">
+</head>
+<body>
+  <!-- Page -->
+  <div class="page" style="">
+    <!-- Header -->
+    <header>
+      
+      <div class="logo">
+        <a href="http://datsko.it/"><img src="./files/img/logo.png"></a>
       </div>
+    
+      <div class="skype-to-us">
+        <a href="skype:datsko.it?chat">
+          <span class="icon-skype"></span> datsko.it
+        </a>
+      </div>
+
+      <div class="call-to-us">
+        <a href="tel:+48123613377">
+          <span class="icon-phone"></span> +48 12 361 33 77
+        </a>
+      </div>
+
+      <div class="email-to-us">
+        <a href="mailto:sales@datsko.it?subject=Datsko%20IT%20-%20Ask%20us%20a%20question">
+          <span class="icon-mail"></span> sales@datsko.it
+        </a>
+      </div>
+
+    </header>
+    <!-- /Header -->
+
+    <!-- Content -->
+    <div class="content" id="content">
+
+      <div id="system-message-container"></div>
+      
+      <div class="item-page" itemscope="" itemtype="http://schema.org/Article">
+        <meta itemprop="inLanguage" content="en-GB">
+        
+        <div itemprop="articleBody">
+          <div style="text-align: center; padding: 100px 0; background: #4EAAFF; margin: -40px -20px -40px;">
+
+            <p style="text-align: center;"><img src="./files/img/logo300.png" alt=""></p>
+            <p style="text-align: center;">&nbsp;</p>
+            <p style="text-align: center;"><span style="font-size: 24pt;"><strong>Behawk</strong> - eCommerce management</span></p>
+            <p style="text-align: center;"><span style="font-size: 18pt;">Manage your online shopping like a hawk!</span></p>
+            <p style="text-align: center;">&nbsp;</p>
+            <p style="margin: 40px 0 0;"><span style="font-size: 36pt;">Try it, it is&nbsp;<span style="color: #ff0000;"><strong>FREE!</strong></span></span></p>
+            <p>&nbsp;</p>
+            
+            <div style="background: #FF5049; color: #fff; padding: 100px 0; margin: 80px 0 50px;">
+              <div class="drow" style="max-width: 800px; margin: 0 auto;">
+                <div class="&quot;dcol12">
+                  <p><a href="https://play.google.com/store/apps/details?id=it.datsko.behawk" target="_blank"><img src="./files/img/android-48x48.png" alt=""></a></p>
+                  <p>Android</p>
+                  <p><a href="https://play.google.com/store/apps/details?id=it.datsko.behawk" target="_blank"><img src="./files/img/en_app_rgb_wo_45.png" alt=""></a></p>
+                  </div>
+                  <div class="&quot;dcol12">
+                  <p><img src="./files/img/apple-48x48.png" alt=""></p>
+                  <p>iOS</p>
+                  <p><img style="opacity: 0.2;" src="./files/img/g3-45.png" alt=""></p>
+                  <p><em>Comming soon...))</em></p>
+                </div>
+              </div>
+            </div>
+
+            <h2>Configuration</h2>
+            <div class="drow" style="max-width: 800px; margin: 0 auto;">
+              <div class="dcol12" align="left">
+                <h3 style="text-align: left;" align="center">Joomla (2.5, 3+) and Virtuemart 2</h3>
+                <p>1. Download pack from <a style="color: #ffffff; text-decoration-color: #fff;" href="https://yadi.sk/d/4vVbsXVQincAs" target="_blank">here</a>.</p>
+                <p>2. Unpack and upload file "behawk.php" to your default Joomla template <em>(example: /templates/your_template/<strong>behawk.php</strong>).</em></p>
+                <p>3. Setup application in <strong>Settings</strong> area.</p>
+                <p>&nbsp;</p>
+                
+                <h3>Settings fields</h3>
+                <p><strong><em>Shop name</em></strong></p>
+                <p>How do you want to name your eCommerce website.</p>
+                <p>&nbsp;</p>
+                <p><strong><em>Shop default file name</em></strong></p>
+                <p>Name of the file which to upload to the template folder <em>(example: /templates/your_template/<strong>behawk.php</strong>)</em>. Rename this file for security reasons.</p>
+                <p>&nbsp;</p>
+                <p><strong><em>The protocol</em></strong></p>
+                <p>http://,&nbsp;https://,&nbsp;http://www.,&nbsp;https://www.</p>
+                <p>&nbsp;</p>
+                <p><strong><em>Shop url</em></strong></p>
+                <p>Link to your website without protocol and backslash "/" <em>(example: https://<strong>yourwebsite.com</strong>/, Shop url is: yourwebsite.com)</em>.</p>
+                <p>&nbsp;</p>
+                <p><em><strong>CMS type</strong></em></p>
+                <p>Select <strong>Joomla+Virtuemart</strong>.</p>
+              </div>
+              <div class="dcol12">
+                <h3 style="text-align: left;">Opencart</h3>
+                <p style="text-align: left;">1. Download pack from <a style="color: #ffffff; text-decoration-color: #fff;" href="https://yadi.sk/d/CfbmwYBoincD8" target="_blank">here</a>.</p>
+                <p style="text-align: left;">2. Unpack and upload file "behawk.php" to your product folder <em>(example: /catalog/controller/product/<strong>behawk.php</strong>)</em>.</p>
+                <p style="text-align: left;">3. Setup application in <strong>Settings</strong> area.</p>
+                <p style="text-align: left;">&nbsp;</p>
+
+                <h3 style="text-align: left;">Settings fields</h3>
+                <p style="text-align: left;"><strong><em>Shop name</em></strong></p>
+                <p style="text-align: left;">How do you want to name your eCommerce website.</p>
+                <p style="text-align: left;">&nbsp;</p>
+                <p style="text-align: left;"><strong><em>Shop default file name</em></strong></p>
+                <p style="text-align: left;">Name of the file which to upload to the template folder <em>(example: /catalog/controller/product/<strong>behawk.php</strong>)</em>. Rename this file for security reasons. Also you'll need to rename <strong><em>class</em></strong> in behawk.php file.</p>
+                <h4 style="text-align: left;">Example</h4>
+                <p style="text-align: left;">Current file name: <strong>behawk.php</strong></p>
+                <p style="text-align: left;">Current class name: <strong>ControllerProductBehawk</strong></p>
+                <p style="text-align: left;">New filen ame: <strong>behawknew.php</strong></p>
+                <p style="text-align: left;">New class name: <strong>ControllerProductBehawknew</strong></p>
+                <p style="text-align: left;">&nbsp;</p>
+                <p style="text-align: left;"><strong><em>The protocol</em></strong></p>
+                <p style="text-align: left;">http://,&nbsp;https://,&nbsp;http://www.,&nbsp;https://www.</p>
+                <p style="text-align: left;">&nbsp;</p>
+                <p style="text-align: left;"><strong><em>Shop url</em></strong></p>
+                <p style="text-align: left;">Link to your website without protocol and backslash "/" <em>(example: https://<strong>yourwebsite.com</strong>/, Shop url is: yourwebsite.com)</em>.</p>
+                <p style="text-align: left;">&nbsp;</p>
+                <p style="text-align: left;"><em><strong>CMS type</strong></em></p>
+                <p style="text-align: left;">Select <strong>OpenCart</strong>.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
     </div>
-    <div class="loader" ng-if="!main.loaded"></div>
+    
+    <!-- Footer -->
+    <footer>
+      <div class="drow">
+        <div class="dcol14">
+          <div class="moduletable">
+            <div class="custom">
+              <p><img src="./files/img/behawk-logo-grey.png" alt="" style="opacity:0.35;"></p>
+            </div>
+          </div>
+        </div>
+        <div class="dcol14">
+          <div class="moduletable">
+            <div class="custom">
+              <h2 style="text-align: left; margin: 0; padding: 0 0 20px;"><span class="icon-chrome">&nbsp;</span><span class="icon-firefox">&nbsp;</span><span class="icon-opera">&nbsp;</span><span class="icon-safari">&nbsp;</span><span class="icon-IE">&nbsp;</span></h2>
+              
+              <h2 style="text-align: left; margin: 0; padding: 0 0 20px;"><span class="icon-android">&nbsp;</span><span class="icon-apple">&nbsp;</span></h2>
+
+              <p><img src="./files/img/logo-grey.png" alt=""></p>
+            </div>
+          </div>
+        </div>
+        <div class="dcol14">
+          <div class="moduletable">
+            <div class="custom">
+              <p><span class="icon-mail">&nbsp;</span><a href="mailto:sales@datsko.it">sales@datsko.it</a></p>
+              <p><span class="icon-skype">&nbsp;</span>datsko.it</p>
+              <p><span class="icon-phone">&nbsp;</span>+48 12 361 33 77</p>
+            </div>
+          </div>
+        </div>
+        <div class="dcol14">
+          <div class="moduletable">
+            <div class="custom">
+              <p style="text-align: right;">© 2015 Datsko IT Sp. Z O.O.</p>
+              <p style="text-align: right;">All rights reserved</p>
+              <p style="text-align: right;">Krakow, Poland</p>
+              <p style="text-align: right;">Kiev, Ukraine</p>
+              <p style="text-align: right;"><a href="http://www.datsko.it/">Datsko IT</a>&nbsp;- <a href="http://datsko.it/en/contacts">Contacts</a>&nbsp;-&nbsp;<a href="http://datsko.it/en/payments">Payments</a></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- /Footer -->
+  </div>
+
+  <script type="text/javascript" defer src="./files/js/jquery-2.1.1.min.js"></script>
+  <script type="text/javascript" defer src="./files/js/caption.js"></script>
+  <script type="text/javascript" defer src="./files/js/js.js"></script>
+
   </body>
 </html>
