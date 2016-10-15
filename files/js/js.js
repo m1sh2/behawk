@@ -510,5 +510,3 @@ function initialize() {
     // console.info("Lat=" + lat + "; Lng=" + lng);
   });
 }
-
-
