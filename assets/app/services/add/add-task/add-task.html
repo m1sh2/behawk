@@ -1,0 +1,14 @@
+<form (ngSubmit)="onSubmit(f)" #f="ngForm">
+  <input
+    type="text"
+    name="name"
+    value="Some name"
+    class="form-control"
+    ngModel
+    >
+  <button class="btn btn-primary">Submit</button>
+</form>
+
+<div *ngFor="let task of tasks">
+  {{task.name}}
+</div>
